@@ -1,0 +1,30 @@
+{
+  "name": "@guilhermecbatista/biome",
+  "version": "1.0.0",
+  "description": "Guilherme Batista's personal Biome configuration",
+  "main": "biome.json",
+  "files": [
+    "biome.json"
+  ],
+  "scripts": {
+    "test": "biome check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermecbatista/biome-config.git"
+  },
+  "keywords": [
+    "biome",
+    "biome-config",
+    "lint",
+    "formatter"
+  ],
+  "author": "Guilherme Batista",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^2.4.15"
+  }
+}
